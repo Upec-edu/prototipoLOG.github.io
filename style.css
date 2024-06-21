@@ -1,62 +1,73 @@
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    background-color: #F5F5F5;
-    color: #333;
     margin: 0;
     padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* Estilos para la barra de navegación */
 .navbar {
     background-color: #1a237e;
     color: white;
+    padding: 10px 0;
 }
 
-.navbar-nav {
-    margin-left: auto;
+.navbar-brand img {
+    height: 50px;
 }
 
-.nav-link {
-    color: white;
+.navbar-icons img {
+    margin-right: 10px;
 }
 
 /* Estilos para el encabezado principal */
 .hero {
-    padding: 2rem;
     background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
 }
 
-.display-4 {
-    font-size: 3rem;
+.hero-title {
+    font-size: 36px;
     color: #1a237e;
 }
 
-.lead {
-    font-size: 1.5rem;
+.hero-subtitle {
+    font-size: 18px;
     color: #616161;
 }
 
-/* Estilos para los botones */
-.btn-primary,
-.btn-secondary {
-    background-color: #1a237e;
-    border: none;
-    margin-right: 1rem;
+.logo-img {
+    margin-top: 20px;
 }
 
-.btn-primary:hover,
-.btn-secondary:hover {
-    background-color: #0d47a1;
+.hero-description {
+    font-size: 16px;
+    color: #616161;
+    margin-top: 20px;
+}
+
+.hero-buttons .btn {
+    margin-right: 10px;
+}
+
+.forgot-password-link {
+    color: #1a237e;
+    text-decoration: none;
 }
 
 /* Estilos para la ventana emergente (si es necesario) */
-/* .overlay {
-    Agrega estilos para la ventana emergente aquí
-} */
 
 /* Estilos para el pie de página */
 .footer {
     background-color: #1a237e;
     color: white;
-    padding: 1rem 0;
+    padding: 20px 0;
+    text-align: center;
 }
