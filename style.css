@@ -15,10 +15,11 @@ header {
     align-items: center;
     padding: 20px;
     background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .logo img {
-    width: 100px;
+    width: 80px;
 }
 
 nav ul {
@@ -48,6 +49,7 @@ nav ul li a {
 main {
     padding: 40px;
     background-color: #fff;
+    position: relative;
 }
 
 .welcome {
@@ -57,11 +59,14 @@ main {
 .welcome h1 {
     font-size: 48px;
     color: #333;
+    position: relative;
 }
 
 .welcome p {
     font-size: 24px;
     color: #555;
+    margin-top: 10px;
+    position: relative;
 }
 
 .content {
@@ -119,7 +124,58 @@ main {
     margin-right: 10px;
 }
 
+.social-login .twitter {
+    background-color: #1da1f2;
+}
+
+.social-login .facebook {
+    background-color: #3b5998;
+}
+
 .social-login button:last-child {
     margin-right: 0;
 }
 
+/* Background squares */
+body::before, body::after, .welcome::before, .welcome::after, .social-login::before, .social-login::after {
+    content: "";
+    position: absolute;
+    background-color: #f0f0f0;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+}
+
+body::before {
+    top: 20px;
+    left: -50px;
+}
+
+body::after {
+    bottom: 20px;
+    right: -50px;
+}
+
+.welcome::before {
+    top: 100px;
+    left: -50px;
+    transform: rotate(45deg);
+}
+
+.welcome::after {
+    top: 150px;
+    right: -50px;
+    transform: rotate(45deg);
+}
+
+.social-login::before {
+    bottom: 50px;
+    left: -50px;
+    transform: rotate(45deg);
+}
+
+.social-login::after {
+    bottom: 50px;
+    right: -50px;
+    transform: rotate(45deg);
+}
