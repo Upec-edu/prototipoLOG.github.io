@@ -1,73 +1,125 @@
-/* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
 }
 
-/* Estilos para la barra de navegación */
-.navbar {
-    background-color: #1a237e;
-    color: white;
-    padding: 10px 0;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
 }
 
-.navbar-brand img {
-    height: 50px;
+.logo img {
+    width: 100px;
 }
 
-.navbar-icons img {
-    margin-right: 10px;
+nav ul {
+    list-style: none;
+    display: flex;
 }
 
-/* Estilos para el encabezado principal */
-.hero {
-    background-color: #f5f5f5;
-    padding: 40px 0;
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.contactos button {
+    background-color: #0044cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    padding: 40px;
+    background-color: #fff;
+}
+
+.welcome {
     text-align: center;
 }
 
-.hero-title {
-    font-size: 36px;
-    color: #1a237e;
+.welcome h1 {
+    font-size: 48px;
+    color: #333;
 }
 
-.hero-subtitle {
+.welcome p {
+    font-size: 24px;
+    color: #555;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.description {
+    max-width: 50%;
+}
+
+.description p {
     font-size: 18px;
-    color: #616161;
+    margin-bottom: 20px;
 }
 
-.logo-img {
-    margin-top: 20px;
+.description button {
+    display: block;
+    background-color: #0044cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
 }
 
-.hero-description {
-    font-size: 16px;
-    color: #616161;
-    margin-top: 20px;
-}
-
-.hero-buttons .btn {
-    margin-right: 10px;
-}
-
-.forgot-password-link {
-    color: #1a237e;
+.description a {
+    display: block;
+    margin-top: 10px;
+    color: #0044cc;
     text-decoration: none;
 }
 
-/* Estilos para la ventana emergente (si es necesario) */
-
-/* Estilos para el pie de página */
-.footer {
-    background-color: #1a237e;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
+.logo-pb img {
+    width: 300px;
 }
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-login button {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.social-login button:last-child {
+    margin-right: 0;
+}
+
