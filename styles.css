@@ -24,6 +24,18 @@ main {
     position: relative;
 }
 
+#carta-porte {
+    max-width: 100%;
+    height: auto;
+}
+
+.info-icon {
+    position: absolute;
+    width: 24px; /* Ajustar el tamaño según sea necesario */
+    height: 24px; /* Ajustar el tamaño según sea necesario */
+    cursor: pointer;
+}
+
 #info-popup {
     position: absolute;
     background-color: #fff;
