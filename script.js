@@ -20,11 +20,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 const rect = event.target.getBoundingClientRect();
                 popup.style.left = `${rect.left + window.scrollX + 20}px`;
                 popup.style.top = `${rect.top + window.scrollY + 20}px`;
+                popup.style.display = 'block';  // Mostrar el cuadro de información
             }
         });
     });
 
     closePopup.addEventListener('click', () => {
         popup.classList.add('hidden');
+        popup.style.display = 'none';  // Ocultar el cuadro de información
+    });
+
+    // Agregar un listener al documento para cerrar el popup si se hace clic fuera de él
+    document.addEventListener('click', (event) => {
+        if (!popup.contains(event.target) && !event.target.classList.contains('info-icon')) {
+            popup.classList.add('hidden');
+            popup.style.display = 'none';
+        }
     });
 });
