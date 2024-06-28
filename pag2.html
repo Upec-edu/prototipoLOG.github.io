@@ -1,26 +1,29 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prototipo Carta Porte</title>
+    <title>Carta Porte</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
-        <h1>Carta de Porte</h1>
+        <h1>Carta Porte Internacional por Carretera (CPIC)</h1>
     </header>
     <main>
         <div class="carta-porte-container">
-            <img id="carta-porte" src="Carta%20porte.jpg" alt="Carta Porte">
-            <img src="info-icon.png" class="info-icon" data-info="1" style="top: 100px; left: 300px;">
-            <!-- Añade más iconos según sea necesario -->
+            <img src="Carta porte.jpg" alt="Carta Porte" id="carta-porte">
+            <!-- Ejemplo de íconos de información -->
+            <img src="info-icon.png" alt="Info 1" class="info-icon" data-info="1" style="top: 50px; left: 50px;">
+            <img src="info-icon.png" alt="Info 2" class="info-icon" data-info="2" style="top: 100px; left: 150px;">
+            <img src="info-icon.png" alt="Info 3" class="info-icon" data-info="3" style="top: 150px; left: 250px;">
+            <!-- Añadir más íconos según sea necesario -->
         </div>
         <div id="info-popup" class="hidden">
-            <span id="close-popup">&times;</span>
+            <span id="close-popup">x</span>
             <p id="info-text"></p>
         </div>
     </main>
-    <script src="scripts.js"></script>
 </body>
 </html>
