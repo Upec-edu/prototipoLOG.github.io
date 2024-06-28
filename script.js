@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const closePopup = document.getElementById('close-popup');
 
     const infoMessages = {
-        1: "Denominación o razón social y dirección del transportista autorizado",
+        1: "Se in-dividualizará al transportista que emite la CPIC, indicando la denominación o razón social de la empresa, la dirección de su oficina matriz con indicación de la ciudad y país respectivos. A esta información deberá agregarse el logotipo y/o nombre comercial de la empresa, los mismos que pueden ser impresos junto con el formato.",
         2: "Nombre y dirección del remitente",
         3: "Nombre y dirección del destinatario",
         // Añadir más mensajes según sea necesario
