@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const closePopup = document.getElementById('close-popup');
 
     const infoMessages = {
-        1: "Se in-dividualizará al transportista que emite la CPIC, indicando la denominación o razón social de la empresa, la dirección de su oficina matriz con indicación de la ciudad y país respectivos. A esta información deberá agregarse el logotipo y/o nombre comercial de la empresa, los mismos que pueden ser impresos junto con el formato.",
+        1: "Denominación o razón social y dirección del transportista autorizado",
         2: "Nombre y dirección del remitente",
         3: "Nombre y dirección del destinatario",
         // Añadir más mensajes según sea necesario
@@ -17,9 +17,17 @@ document.addEventListener('DOMContentLoaded', () => {
             if (info && infoMessages[info]) {
                 infoText.textContent = infoMessages[info];
                 popup.classList.remove('hidden');
-                const rect = event.target.getBoundingClientRect();
-                popup.style.left = `${rect.left + window.scrollX + 20}px`;
-                popup.style.top = `${rect.top + window.scrollY + 20}px`;
+                
+                // Posicionar el popup según el data-info
+                if (info === '2') {
+                    popup.style.left = '300px';
+                    popup.style.top = '100px';
+                } else {
+                    const rect = event.target.getBoundingClientRect();
+                    popup.style.left = `${rect.left + window.scrollX + 20}px`;
+                    popup.style.top = `${rect.top + window.scrollY + 20}px`;
+                }
+
                 popup.style.display = 'block';  // Mostrar el cuadro de información
             }
         });
@@ -35,6 +43,4 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!popup.contains(event.target) && !event.target.classList.contains('info-icon')) {
             popup.classList.add('hidden');
             popup.style.display = 'none';
-        }
-    });
-});
+        
