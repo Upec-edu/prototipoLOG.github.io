@@ -5,29 +5,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const closePopup = document.getElementById('close-popup');
 
     const infoMessages = {
-        1: "Denominación o razón social y dirección del transportista autorizado",
-        2: "Nombre y dirección del remitente",
-        3: "Nombre y dirección del destinatario",
-        // Añadir más mensajes según sea necesario
+        1: {
+            text: "Denominación o razón social y dirección del transportista autorizado",
+            top: '100px',
+            left: '300px'
+        },
+        2: {
+            text: "Nombre y dirección del remitente",
+            top: '150px',
+            left: '350px'
+        },
+        // Añadir más mensajes y posiciones según sea necesario
     };
 
     icons.forEach(icon => {
         icon.addEventListener('click', event => {
             const info = event.target.dataset.info;
             if (info && infoMessages[info]) {
-                infoText.textContent = infoMessages[info];
+                infoText.textContent = infoMessages[info].text;
                 popup.classList.remove('hidden');
-                
-                // Posicionar el popup según el data-info
-                if (info === '2') {
-                    popup.style.left = '300px';
-                    popup.style.top = '100px';
-                } else {
-                    const rect = event.target.getBoundingClientRect();
-                    popup.style.left = `${rect.left + window.scrollX + 20}px`;
-                    popup.style.top = `${rect.top + window.scrollY + 20}px`;
-                }
-
+                popup.style.top = infoMessages[info].top;
+                popup.style.left = infoMessages[info].left;
                 popup.style.display = 'block';  // Mostrar el cuadro de información
             }
         });
@@ -43,4 +41,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!popup.contains(event.target) && !event.target.classList.contains('info-icon')) {
             popup.classList.add('hidden');
             popup.style.display = 'none';
-        
+        }
+    });
+});
