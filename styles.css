@@ -32,7 +32,7 @@ main {
 .info-icon {
     position: absolute;
     width: 100px; /* Ajustar el tamaño según sea necesario */
-    height: 50px; /* Ajustar el tamaño según sea necesario */
+    height: 25px; /* Ajustar el tamaño según sea necesario */
     cursor: pointer;
 }
 
