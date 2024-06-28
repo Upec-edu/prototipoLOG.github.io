@@ -13,14 +13,12 @@
     </header>
     <main>
         <div class="carta-porte-container">
-            <img src="Carta porte.jpg" alt="Carta Porte" usemap="#carta-porte-map">
-            <map name="carta-porte-map">
-                <!-- Ejemplo de áreas, ajustar según sea necesario -->
-                <area shape="rect" coords="40,50,140,150" alt="Info 1" data-info="1">
-                <area shape="rect" coords="150,50,250,150" alt="Info 2" data-info="2">
-                <area shape="rect" coords="260,50,360,150" alt="Info 3" data-info="3">
-                <!-- Añadir más áreas con coordenadas según sea necesario -->
-            </map>
+            <img src="Carta porte.jpg" alt="Carta Porte" id="carta-porte">
+            <!-- Ejemplo de íconos de información -->
+            <img src="info-icon.png" alt="Info 1" class="info-icon" data-info="1" style="top: 50px; left: 50px;">
+            <img src="info-icon.png" alt="Info 2" class="info-icon" data-info="2" style="top: 100px; left: 150px;">
+            <img src="info-icon.png" alt="Info 3" class="info-icon" data-info="3" style="top: 150px; left: 250px;">
+            <!-- Añadir más íconos según sea necesario -->
         </div>
         <div id="info-popup" class="hidden">
             <span id="close-popup">x</span>
