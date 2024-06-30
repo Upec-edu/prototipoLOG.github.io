@@ -94,7 +94,7 @@ main {
 .side-nav {
     position: fixed;
     top: 60%;
-    left: 2;
+    left: 10;
     transform: translateY(-50%);
     z-index: 20;
 }
@@ -110,7 +110,7 @@ main {
 }
 
 .side-nav a img {
-    width: 60px; /* Ajusta el tamaño según sea necesario */
+    width: 95px; /* Ajusta el tamaño según sea necesario */
     height: auto;
 }
 @media (max-width: 768px) {
