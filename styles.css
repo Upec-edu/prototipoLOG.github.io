@@ -48,8 +48,8 @@ main {
 
 .info-icon {
     position: absolute;
-    width: 100px; /* Tamaño del ícono */
-    height: 100px; /* Tamaño del ícono */
+    width: 90px; /* Tamaño del ícono */
+    height: 87px; /* Tamaño del ícono */
     cursor: pointer;
 }
 
@@ -78,7 +78,7 @@ main {
     position: absolute;
     top: 10px;
     right: 10px;
-    width: 20px;
-    height: 20px;
+    width: 35px;
+    height: 35px;
     cursor: pointer;
 }
