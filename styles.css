@@ -55,8 +55,8 @@
 
         .info-icon {
             position: absolute;
-            width: 100px; /* Tamaño del ícono */
-            height: 100px; /* Tamaño del ícono */
+            width: 300px; /* Tamaño del ícono */
+            height: 300px; /* Tamaño del ícono */
             cursor: pointer;
         }
 
