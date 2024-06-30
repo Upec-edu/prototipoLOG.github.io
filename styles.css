@@ -49,7 +49,7 @@ main {
 
 .info-icon {
     position: absolute;
-    width: 10px; /* Tamaño del ícono */
+    width: 100px; /* Tamaño del ícono */
     height: auto; /* Tamaño del ícono */
     cursor: pointer;
 }
@@ -87,8 +87,8 @@ main {
 
 @media (max-width: 768px) {
     .info-icon {
-        width: 20px; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
-        height: 20px; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
+        width: 30px; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
+        height: auto; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
     }
 
     #info-popup {
