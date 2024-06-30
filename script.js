@@ -16,8 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         8: "Se indicará el sitio, paraje, población, ciudad y país, así como la fecha convenida entre el transportista autorizado y el remitente para la entrega de las mercancías.",
         9: "Se indicará, según corres-ponda, una de las siguientes formas de operación en que se llevará a cabo el transporte internacional de mercancías por carretera:a) Directo, sin cambio del camión o tracto-camión y del remolque o semirremol-que; o, b) Directo, con cambio del tracto-camión, sin transbordo de las mercancías.El transbordo de las mercancías se efectuará sólo cuando lo acuerden expresa-mente el transportista autorizado y el remitente, lo cual deberá constar en la CPIC. Asimismo, se especificará la forma en que se realizará el pago, indicando el lugar y el tiempo en que se efectuará el mismo.",
         10: "Se indicará el número de bultos o unidad de carga, y se señalará su clase indicando el tipo de embalaje externo. Los datos expresados deberán coincidir con los señalados en los documentos entregados por el remitente y que se anexen a la CPIC.",
-
-// Añadir más mensajes según sea necesario
+        // Añadir más mensajes según sea necesario
     };
 
     icons.forEach(icon => {
@@ -34,13 +33,5 @@ document.addEventListener('DOMContentLoaded', () => {
     closePopup.addEventListener('click', () => {
         popup.classList.add('hidden');
         popup.style.display = 'none';  // Ocultar el cuadro de información
-    });
-
-    // Agregar un listener al documento para cerrar el popup si se hace clic fuera de él
-    document.addEventListener('click', (event) => {
-        if (!popup.contains(event.target) && !event.target.classList.contains('info-icon')) {
-            popup.classList.add('hidden');
-            popup.style.display = 'none';
-        }
     });
 });
