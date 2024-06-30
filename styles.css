@@ -114,7 +114,7 @@ main {
     }
 
     .header-left, .header-right {
-        width: 10px; /* Ajusta el tamaño de las imágenes del encabezado */
+        width: 28px; /* Ajusta el tamaño de las imágenes del encabezado */
     }
 }
 
