@@ -87,14 +87,15 @@ main {
     position: absolute;
     top: 5px;
     right: 5px;
-    width: 65px; /* Aumenta el tamaño del ícono de cierre */
+    width: 55px; /* Aumenta el tamaño del ícono de cierre */
     height: auto; /* Aumenta el tamaño del ícono de cierre */
     cursor: pointer;
 }
+
 .side-nav {
     position: fixed;
-    top: 60%;
-    left: 10%;
+    top: 50%;
+    left: 30px;
     transform: translateY(-50%);
     z-index: 20;
 }
@@ -113,13 +114,14 @@ main {
     width: 95px; /* Ajusta el tamaño según sea necesario */
     height: auto;
 }
+
 @media (max-width: 768px) {
     header h1 {
-        font-size: 0.7rem; /* Ajusta el tamaño para pantallas más pequeñas */
+        font-size: 1.5rem; /* Ajusta el tamaño para pantallas más pequeñas */
     }
 
     .info-icon {
-        width: 26px; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
+        width: 20px; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
         height: auto; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
     }
 
@@ -135,13 +137,21 @@ main {
     }
 
     .header-left, .header-right {
-        width: 28px; /* Ajusta el tamaño de las imágenes del encabezado */
+        width: 80px; /* Ajusta el tamaño de las imágenes del encabezado */
     }
 }
 
 @media (max-width: 480px) {
     header h1 {
-        font-size: 0.5rem; /* Ajusta el tamaño para pantallas muy pequeñas */
+        font-size: 1.2rem; /* Ajusta el tamaño para pantallas muy pequeñas */
+    }
+
+    .header-left, .header-right {
+        width: 50px; /* Ajusta el tamaño de las imágenes del encabezado */
+    }
+
+    .side-nav a img {
+        width: 30px; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
     }
 }
 
