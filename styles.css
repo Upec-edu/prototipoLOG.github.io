@@ -13,7 +13,7 @@ header {
     position: relative;
 }
 header h1 {
-    font-size: 4vw; /* Ajusta el tamaño según el ancho de la pantalla */
+    font-size: 3vw; /* Ajusta el tamaño según el ancho de la pantalla */
     margin: 0;
     padding: 0.5rem;
 }
@@ -91,7 +91,7 @@ main {
 
 @media (max-width: 768px) {
     header h1 {
-        font-size: 6vw; /* Ajusta el tamaño para pantallas más pequeñas */
+        font-size: 5vw; /* Ajusta el tamaño para pantallas más pequeñas */
     }
     .info-icon {
         width: 30px; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
@@ -115,6 +115,6 @@ main {
 }
 @media (max-width: 480px) {
     header h1 {
-        font-size: 8vw; /* Ajusta el tamaño para pantallas muy pequeñas */
+        font-size: 7vw; /* Ajusta el tamaño para pantallas muy pequeñas */
     }
 }
