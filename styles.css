@@ -47,19 +47,30 @@ main {
 }
 
 .info-icon {
+    position: absolute;
     width: 100px; /* Tamaño del ícono */
     height: auto; /* Tamaño del ícono */
     cursor: pointer;
 }
 
 #info-popup {
-    width: 90%; /* Aumenta el ancho */
-    max-width: 600px; /* Aumenta el ancho máximo */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
     padding: 2rem; /* Aumenta el relleno */
     border-radius: 10px; /* Aumenta el borde redondeado */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+    display: none;
+    z-index: 10;
+    width: 250%; /* Aumenta el ancho */
+    max-width: 600px; /* Aumenta el ancho máximo */
+    text-align: center;
     font-size: 1.2rem; /* Aumenta el tamaño de la fuente */
 }
+
 #info-popup.hidden {
     display: none;
 }
@@ -67,15 +78,16 @@ main {
 #close-popup {
     position: absolute;
     top: 5px;
-    right: 5px;
-    width: 45px; /* Aumenta el tamaño del ícono de cierre */
+    right: 4px;
+    width: 50px; /* Aumenta el tamaño del ícono de cierre */
     height: auto; /* Aumenta el tamaño del ícono de cierre */
     cursor: pointer;
 }
+
 @media (max-width: 768px) {
     .info-icon {
-        width: 20px; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
-        height: 20px; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
+        width: 100px; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
+        height: auto; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
     }
 
     #info-popup {
