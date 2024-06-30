@@ -1,84 +1,61 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carta Porte</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px;
-            background-color: #004225; /* Color verde poco oscuro */
-            color: white;
-        }
-        .header img {
-            height: 50px;
-        }
-        .container {
-            position: relative;
-            text-align: center;
-            color: white;
-        }
-        .carta-porte {
-            max-width: 100%;
-            height: auto;
-        }
-        .info-icon {
-            position: absolute;
-            width: 100px;
-            height: 100px;
-            cursor: pointer;
-        }
-        .info-popup {
-            display: none;
-            position: absolute;
-            background-color: rgba(0, 0, 0, 0.8);
-            color: white;
-            padding: 10px;
-            border-radius: 5px;
-            z-index: 100;
-        }
-        .header-text {
-            background-color: #004225; /* Color verde poco oscuro */
-            padding: 10px;
-            color: white;
-        }
-    </style>
-</head>
-<body>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
-    <div class="header">
-        <img src="vinculacion.svg" alt="Vinculacion">
-        <img src="image2vector.svg" alt="Image2Vector">
-    </div>
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
 
-    <div class="header-text">
-        <h1>Carta Porte Internacional por Carretera (CPIC)</h1>
-    </div>
+main {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-    <div class="container">
-        <img src="Carta porte.jpg" alt="Carta Porte" class="carta-porte">
+.carta-porte-container {
+    position: relative;
+}
 
-        <img src="info-icon.png" class="info-icon" style="top: 100px; left: 300px;" onclick="showPopup('popup1')">
-        <div class="info-popup" id="popup1" style="top: 130px; left: 300px;">
-            <p>Denominación o razón social y dirección del transportista autorizado</p>
-        </div>
+#carta-porte {
+    max-width: 100%;
+    height: auto;
+}
 
-        <!-- Agregar más iconos de información y popups según sea necesario -->
-    </div>
+.info-icon {
+    position: absolute;
+    width: 100px; /* Asegúrate de que esto coincida con el tamaño que deseas */
+    height: 100px; /* Asegúrate de que esto coincida con el tamaño que deseas */
+    cursor: pointer;
+}
 
-    <script>
-        function showPopup(id) {
-            var popup = document.getElementById(id);
-            popup.style.display = popup.style.display === 'block' ? 'none' : 'block';
-        }
-    </script>
-</body>
-</html>
+#info-popup {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 10;
+}
+
+#info-popup.hidden {
+    display: none;
+}
+
+#close-popup {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #007BFF;
+}
