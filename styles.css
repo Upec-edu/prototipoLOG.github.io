@@ -31,8 +31,8 @@ main {
 
 .info-icon {
     position: absolute;
-    width: 48px; /* Ajustar el tamaño según sea necesario */
-    height: 48px; /* Ajustar el tamaño según sea necesario */
+    width: 100px; /* Ajustar el tamaño según sea necesario */
+    height: 100px; /* Ajustar el tamaño según sea necesario */
     cursor: pointer;
 }
 
