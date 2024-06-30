@@ -26,9 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
             if (info && infoMessages[info]) {
                 infoText.textContent = infoMessages[info];
                 popup.classList.remove('hidden');
-                const rect = event.target.getBoundingClientRect();
-                popup.style.left = `${rect.left + window.scrollX + 20}px`;
-                popup.style.top = `${rect.top + window.scrollY + 20}px`;
                 popup.style.display = 'block';  // Mostrar el cuadro de información
             }
         });
