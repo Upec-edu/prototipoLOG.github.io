@@ -94,7 +94,7 @@ main {
 .side-nav {
     position: fixed;
     top: 60%;
-    left: 10;
+    left: 10%;
     transform: translateY(-50%);
     z-index: 20;
 }
