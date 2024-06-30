@@ -47,30 +47,19 @@ main {
 }
 
 .info-icon {
-    position: absolute;
     width: 100px; /* Tamaño del ícono */
     height: auto; /* Tamaño del ícono */
     cursor: pointer;
 }
 
 #info-popup {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    border: 1px solid #ccc;
+    width: 90%; /* Aumenta el ancho */
+    max-width: 600px; /* Aumenta el ancho máximo */
     padding: 2rem; /* Aumenta el relleno */
     border-radius: 10px; /* Aumenta el borde redondeado */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
-    display: none;
-    z-index: 10;
-    width: 90%; /* Aumenta el ancho */
-    max-width: 600px; /* Aumenta el ancho máximo */
-    text-align: center;
     font-size: 1.2rem; /* Aumenta el tamaño de la fuente */
 }
-
 #info-popup.hidden {
     display: none;
 }
@@ -82,4 +71,25 @@ main {
     width: 45px; /* Aumenta el tamaño del ícono de cierre */
     height: auto; /* Aumenta el tamaño del ícono de cierre */
     cursor: pointer;
+}
+@media (max-width: 768px) {
+    .info-icon {
+        width: 20px; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
+        height: 20px; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
+    }
+
+    #info-popup {
+        width: 90%;
+        max-width: 300px; /* Ajusta el ancho máximo para pantallas más pequeñas */
+        padding: 1rem;
+        font-size: 1rem; /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
+    }
+
+    header {
+        padding: 0.5rem 0;
+    }
+
+    .header-left, .header-right {
+        width: 100px; /* Ajusta el tamaño de las imágenes del encabezado */
+    }
 }
