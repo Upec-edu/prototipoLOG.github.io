@@ -102,7 +102,7 @@
         <div class="carta-porte-container">
             <img src="Carta porte.jpg" alt="Carta Porte" id="carta-porte">
 
-            <img src="info-icon.png" class="info-icon" style="top: 100px; left: 300px;" onclick="showPopup('popup1')">
+            <img src="info-icon.png" class="info-icon" style="top: 100px; left: 200px;" onclick="showPopup('popup1')">
             <div class="info-popup" id="popup1" style="top: 130px; left: 300px;">
                 <span id="close-popup" onclick="hidePopup('popup1')">&times;</span>
                 <p>Denominación o razón social y dirección del transportista autorizado</p>
