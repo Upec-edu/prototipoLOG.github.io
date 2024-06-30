@@ -39,6 +39,7 @@ main {
 
 .carta-porte-container {
     position: relative;
+    max-width: 100%;
 }
 
 #carta-porte {
@@ -48,7 +49,7 @@ main {
 
 .info-icon {
     position: absolute;
-    width: 100px; /* Tamaño del ícono */
+    width: 10px; /* Tamaño del ícono */
     height: auto; /* Tamaño del ícono */
     cursor: pointer;
 }
@@ -79,15 +80,15 @@ main {
     position: absolute;
     top: 5px;
     right: 4px;
-    width: 50px; /* Aumenta el tamaño del ícono de cierre */
-    height: auto; /* Aumenta el tamaño del ícono de cierre */
+    width: 55px; /* Aumenta el tamaño del ícono de cierre */
+    height: uto; /* Aumenta el tamaño del ícono de cierre */
     cursor: pointer;
 }
 
 @media (max-width: 768px) {
     .info-icon {
-        width: 100px; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
-        height: auto; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
+        width: 20px; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
+        height: 20px; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
     }
 
     #info-popup {
@@ -105,3 +106,4 @@ main {
         width: 100px; /* Ajusta el tamaño de las imágenes del encabezado */
     }
 }
+
