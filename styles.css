@@ -60,6 +60,12 @@ main {
     height: auto; /* Tamaño del ícono */
     cursor: pointer;
 }
+.info-iconp {
+    position: absolute;
+    width: 70px; /* Tamaño del ícono */
+    height: auto; /* Tamaño del ícono */
+    cursor: pointer;
+}
 
 #info-popup {
     position: fixed;
