@@ -39,26 +39,13 @@ body {
     position: absolute;
     cursor: pointer;
     transition: transform 0.3s;
+    width: 150px; /* Ajusta el tamaño del ícono */
+    height: auto; /* Mantén la proporción del ícono */
 }
 
 .comenzar-icon:hover,
 .guia-icon:hover {
     transform: scale(1.1);
-}
-
-/* Ajustes de tamaño y posición de los íconos */
-.comenzar-icon {
-    width: 350px; /* Ajusta el ancho del ícono */
-    height: auto; /* Mantén la proporción del ícono */
-    top: 30%; /* Ajusta la posición vertical */
-    left: 5%; /* Ajusta la posición horizontal */
-}
-
-.guia-icon {
-    width: 350px; /* Ajusta el ancho del ícono */
-    height: auto; /* Mantén la proporción del ícono */
-    top: 17%; /* Ajusta la posición vertical */
-    left: 50%; /* Ajusta la posición horizontal */
 }
 
 /* Responsive Styles */
@@ -82,3 +69,4 @@ body {
         width: 80px; /* Ajusta el ancho del ícono para pantallas más pequeñas */
     }
 }
+
