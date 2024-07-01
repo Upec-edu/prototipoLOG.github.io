@@ -46,16 +46,16 @@ body {
     transform: scale(1.1);
 }
 
-/* Ajustes de tamaño de los íconos */
+/* Ajustes de tamaño y posición de los íconos */
 .comenzar-icon {
-    width: 350px; /* Ajusta el ancho del ícono */
+    width: 150px; /* Ajusta el ancho del ícono */
     height: auto; /* Mantén la proporción del ícono */
     top: 17%; /* Ajusta la posición vertical */
     left: 23%; /* Ajusta la posición horizontal */
 }
 
 .guia-icon {
-    width: 350px; /* Ajusta el ancho del ícono */
+    width: 150px; /* Ajusta el ancho del ícono */
     height: auto; /* Mantén la proporción del ícono */
     top: 17%; /* Ajusta la posición vertical */
     left: 50%; /* Ajusta la posición horizontal */
@@ -75,6 +75,14 @@ body {
         width: 100px; /* Ajusta el ancho del ícono para pantallas más pequeñas */
     }
 }
+
+@media (max-width: 480px) {
+    .comenzar-icon,
+    .guia-icon {
+        width: 80px; /* Ajusta el ancho del ícono para pantallas más pequeñas */
+    }
+}
+
 
 @media (max-width: 480px) {
     .comenzar-icon,
