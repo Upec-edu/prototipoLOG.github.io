@@ -48,13 +48,17 @@ body {
 
 /* Ajustes de tamaño de los íconos */
 .comenzar-icon {
-    width: 150px; /* Ajusta el ancho del ícono */
+    width: 350px; /* Ajusta el ancho del ícono */
     height: auto; /* Mantén la proporción del ícono */
+    top: 17%; /* Ajusta la posición vertical */
+    left: 23%; /* Ajusta la posición horizontal */
 }
 
 .guia-icon {
-    width: 150px; /* Ajusta el ancho del ícono */
+    width: 350px; /* Ajusta el ancho del ícono */
     height: auto; /* Mantén la proporción del ícono */
+    top: 17%; /* Ajusta la posición vertical */
+    left: 50%; /* Ajusta la posición horizontal */
 }
 
 /* Responsive Styles */
