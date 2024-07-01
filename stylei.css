@@ -15,13 +15,6 @@
     background-position: center;
     background-repeat: no-repeat;
     z-index: -1;
-main {
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 
 .carta-porte-container {
     position: relative;
