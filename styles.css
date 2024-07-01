@@ -94,12 +94,16 @@ main {
 
 .side-nav {
     position: fixed;
-    top: 60%;
-    left: 16px;
+    top: 70%;
+    left: 18px;
     transform: translateY(-50%);
     z-index: 20;
+    background-color: #004225; /* Color de fondo */
+    padding: 10px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: all 0.3s ease; /* Transición suave */
 }
-
 .side-nav ul {
     list-style: none;
     padding: 0;
@@ -140,6 +144,11 @@ main {
         width: 50px; /* Ajusta el tamaño de las imágenes del encabezado */
     }
 }
+.side-nav {
+        left: 5px; /* Ajusta la posición para pantallas más pequeñas */
+        padding: 5px;
+    }
+}
 
 @media (max-width: 480px) {
     header h1 {
@@ -154,4 +163,8 @@ main {
         width: 30px; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
     }
 }
-
+.side-nav {
+        left: 5px; /* Ajusta la posición para pantallas más pequeñas */
+        padding: 5px;
+    }
+}
