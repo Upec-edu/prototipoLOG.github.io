@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const icons = document.querySelectorAll('.info-icon','.info-iconp');
+    const icons = document.querySelectorAll('.info-icon');
+    const icons = document.querySelectorAll('.info-iconp');
     const popup = document.getElementById('info-popup');
     const infoText = document.getElementById('info-text');
     const closePopup = document.getElementById('close-popup');
