@@ -16,11 +16,6 @@
     background-repeat: no-repeat;
     z-index: -1;
 
-.carta-porte-container {
-    position: relative;
-    max-width: 100%;
-
-
 .comenzar-icon {
     position: absolute;
     width: 50px; /* Tamaño del ícono */
