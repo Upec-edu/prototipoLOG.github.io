@@ -30,42 +30,51 @@ body {
 
 .inicio.buttons {
     position: relative;
-    width: 10%;
-    height: 10%;
+    width: 100%;
+    height: 100%;
 }
 
-.comenzar-icon {
+.comenzar-icon,
+.guia-icon {
     position: absolute;
-    width: 10%; /* Tamaño del ícono */
-    height: auto; /* Tamaño del ícono */
     cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.comenzar-icon:hover,
+.guia-icon:hover {
+    transform: scale(1.1);
+}
+
+/* Ajustes de tamaño de los íconos */
+.comenzar-icon {
+    width: 150px; /* Ajusta el ancho del ícono */
+    height: auto; /* Mantén la proporción del ícono */
 }
 
 .guia-icon {
-    position: absolute;
-    width: 10%; /* Tamaño del ícono */
-    height: auto; /* Tamaño del ícono */
-    cursor: pointer;
+    width: 150px; /* Ajusta el ancho del ícono */
+    height: auto; /* Mantén la proporción del ícono */
 }
 
 /* Responsive Styles */
 @media (max-width: 1024px) {
     .comenzar-icon,
     .guia-icon {
-        width: 15%; /* Ajustar el tamaño del ícono para pantallas más pequeñas */
+        width: 120px; /* Ajusta el ancho del ícono para pantallas más pequeñas */
     }
 }
 
 @media (max-width: 768px) {
     .comenzar-icon,
     .guia-icon {
-        width: 20%; /* Ajustar el tamaño del ícono para pantallas más pequeñas */
+        width: 100px; /* Ajusta el ancho del ícono para pantallas más pequeñas */
     }
 }
 
 @media (max-width: 480px) {
     .comenzar-icon,
     .guia-icon {
-        width: 25%; /* Ajustar el tamaño del ícono para pantallas más pequeñas */
+        width: 80px; /* Ajusta el ancho del ícono para pantallas más pequeñas */
     }
 }
