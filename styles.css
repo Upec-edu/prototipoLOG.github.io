@@ -94,11 +94,11 @@ main {
 
 .side-nav {
     position: fixed;
-    top: 70%;
+    top: 52%;
     left: 18px;
     transform: translateY(-50%);
     z-index: 20;
-    background-color: #004225; /* Color de fondo */
+    background-color: #51C54F; /* Color de fondo */
     padding: 10px;
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
