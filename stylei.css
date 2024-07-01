@@ -15,6 +15,32 @@
     background-position: center;
     background-repeat: no-repeat;
     z-index: -1;
+main {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carta-porte-container {
+    position: relative;
+    max-width: 100%;
+
+
+.comenzar-icon {
+    position: absolute;
+    width: 50px; /* Tamaño del ícono */
+    height: auto; /* Tamaño del ícono */
+    cursor: pointer;
+}
+    
+.guia-icon {
+    position: absolute;
+    width: 50px; /* Tamaño del ícono */
+    height: auto; /* Tamaño del ícono */
+    cursor: pointer;
+}
 
 /* Responsive Styles */
 @media (max-width: 1024px) {
