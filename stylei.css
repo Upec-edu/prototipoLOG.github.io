@@ -41,7 +41,7 @@ body {
     padding: 15px 120px;
     border: none;
     border-radius: 14px;
-    background-color: #02005F;
+    background-color: #030585;
     color: white;
     cursor: pointer;
     font-size: 1rem;
@@ -49,7 +49,7 @@ body {
 }
 
 .inicio-buttons button:hover {
-    background-color: #357ae8;
+    background-color: #4984F9;
     transform: scale(1.05);
 }
 
