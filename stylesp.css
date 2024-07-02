@@ -63,33 +63,31 @@ nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-.auth-buttons {
+.inicio-buttons {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    top: 57%;
+    left: 3%;
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
 }
 
-.auth-buttons a {
-    text-decoration: none;
-}
-
-.auth-buttons button {
-    padding: 10px 15px;
+.inicio-buttons button {
+    padding: 15px 120px;
     border: none;
-    border-radius: 5px;
-    background-color: #4285f4;
+    border-radius: 14px;
+    background-color: #EA792F;
     color: white;
     cursor: pointer;
-    transition: background-color 0.3s;
     font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
-.auth-buttons button:hover {
-    background-color: #357ae8;
+.inicio-buttons button:hover {
+    background-color: #FF8064 ;
+    transform: scale(1.05);
 }
+
 
 /* Responsive Styles */
 @media (max-width: 1024px) {
