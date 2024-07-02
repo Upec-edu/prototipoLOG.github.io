@@ -65,8 +65,8 @@ nav ul li a:hover {
 
 .inicio-buttons {
     position: absolute;
-    top: 57%;
-    left: 3%;
+    top: 63%;
+    left: 58%;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -76,7 +76,7 @@ nav ul li a:hover {
     padding: 15px 120px;
     border: none;
     border-radius: 14px;
-    background-color: #EA792F;
+    background-color: #F98B40;
     color: white;
     cursor: pointer;
     font-size: 1rem;
