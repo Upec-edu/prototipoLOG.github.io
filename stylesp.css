@@ -64,8 +64,8 @@ nav ul li a:hover {
 
 .inicio-buttons {
     position: absolute;
-    top: 77%;
-    left: 65%;
+    top: 80%;
+    left: 68%;
     display: flex;
     flex-direction: row;
     gap: 20px;
