@@ -17,7 +17,7 @@ body {
 
 .background-image {
     position: absolute;
-    top: 15%;
+    top: 20%; /* Ajuste el valor para que esté más abajo */
     left: 0;
     width: 80%;
     height: auto;
@@ -83,10 +83,9 @@ nav ul li a:hover {
 }
 
 .inicio-buttons button:hover {
-    background-color: #FF8064 ;
+    background-color: #FF8064;
     transform: scale(1.05);
 }
-
 
 /* Responsive Styles */
 @media (max-width: 1024px) {
@@ -168,3 +167,4 @@ nav ul li a:hover {
         font-size: 0.7rem;
     }
 }
+
