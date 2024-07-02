@@ -17,13 +17,12 @@ body {
 
 .background-image {
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 0;
-    width: 90%;
+    width: 80%;
     height: auto;
     background-image: url('Select product.svg');
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
     z-index: -1;
 }
