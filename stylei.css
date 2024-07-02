@@ -30,17 +30,17 @@ body {
 
 .inicio-buttons {
     position: absolute;
-    top: 20%;
-    left: 5%;
+    top: 60%;
+    left: 8%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
 }
 
 .inicio-buttons button {
     padding: 15px 25px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #4285f4;
     color: white;
     cursor: pointer;
