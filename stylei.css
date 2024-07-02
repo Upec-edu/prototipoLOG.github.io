@@ -30,8 +30,8 @@ body {
 
 .inicio-buttons {
     position: absolute;
-    top: 55%;
-    left: 8%;
+    top: 57%;
+    left: 3%;
     display: flex;
     flex-direction: row;
     gap: 20px;
