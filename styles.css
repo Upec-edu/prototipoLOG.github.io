@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #004225; /* Color verde poco oscuro */
+    background-color: #004225;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -14,7 +14,7 @@ header {
 }
 
 header h1 {
-    font-size: 2rem; /* Tamaño base del texto */
+    font-size: 2rem;
     margin: 0;
     padding: 0.5rem;
     text-align: center;
@@ -49,21 +49,13 @@ main {
     max-width: 100%;
 }
 
-#carta-porte {
-    max-width: 100%;
+.responsive-img {
+    width: 100%;
     height: auto;
 }
 
-.info-icon {
+.info-icon, .info-iconp {
     position: absolute;
-    width: 100px; /* Tamaño del ícono */
-    height: auto; /* Tamaño del ícono */
-    cursor: pointer;
-}
-.info-iconp {
-    position: absolute;
-    width: 70px; /* Tamaño del ícono */
-    height: auto; /* Tamaño del ícono */
     cursor: pointer;
 }
 
@@ -74,15 +66,15 @@ main {
     transform: translate(-50%, -50%);
     background-color: #fff;
     border: 1px solid #ccc;
-    padding: 2rem; /* Aumenta el relleno */
-    border-radius: 10px; /* Aumenta el borde redondeado */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     display: none;
     z-index: 10;
-    width: 300%; /* Aumenta el ancho */
-    max-width: 600px; /* Aumenta el ancho máximo */
+    width: 90%;
+    max-width: 600px;
     text-align: center;
-    font-size: 1.2rem; /* Aumenta el tamaño de la fuente */
+    font-size: 1.2rem;
 }
 
 #info-popup.hidden {
@@ -93,8 +85,8 @@ main {
     position: absolute;
     top: 5px;
     right: 5px;
-    width: 55px; /* Aumenta el tamaño del ícono de cierre */
-    height: auto; /* Aumenta el tamaño del ícono de cierre */
+    width: 55px;
+    height: auto;
     cursor: pointer;
 }
 
@@ -104,12 +96,13 @@ main {
     left: 18px;
     transform: translateY(-50%);
     z-index: 20;
-    background-color: #51C54F; /* Color de fondo */
+    background-color: #51C54F;
     padding: 10px;
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
-    transition: all 0.3s ease; /* Transición suave */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
 }
+
 .side-nav ul {
     list-style: none;
     padding: 0;
@@ -121,56 +114,57 @@ main {
 }
 
 .side-nav a img {
-    width: 95px; /* Ajusta el tamaño según sea necesario */
+    width: 95px;
     height: auto;
 }
 
 @media (max-width: 768px) {
     header h1 {
-        font-size: 0.75rem; /* Ajusta el tamaño para pantallas más pequeñas */
+        font-size: 1.5rem;
+    }
+
+    .header-left, .header-right {
+        width: 100px;
     }
 
     .info-icon {
-        width: 40px; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
-        height: auto; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
+        width: 60px;
+    }
+
+    .info-iconp {
+        width: 45px;
     }
 
     #info-popup {
         width: 90%;
-        max-width: 300px; /* Ajusta el ancho máximo para pantallas más pequeñas */
+        max-width: 300px;
         padding: 1rem;
-        font-size: 1rem; /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
+        font-size: 1rem;
     }
 
     header {
         padding: 0.4rem 0;
     }
-
-    .header-left, .header-right {
-        width: 50px; /* Ajusta el tamaño de las imágenes del encabezado */
-    }
-}
-.side-nav {
-        left: 5px; /* Ajusta la posición para pantallas más pequeñas */
-        padding: 5px;
-    }
 }
 
 @media (max-width: 480px) {
     header h1 {
-        font-size: 1.2rem; /* Ajusta el tamaño para pantallas muy pequeñas */
+        font-size: 1.2rem;
     }
 
     .header-left, .header-right {
-        width: 50px; /* Ajusta el tamaño de las imágenes del encabezado */
+        width: 70px;
+    }
+
+    .info-icon {
+        width: 50px;
+    }
+
+    .info-iconp {
+        width: 35px;
     }
 
     .side-nav a img {
-        width: 30px; /* Ajusta el tamaño según sea necesario para pantallas más pequeñas */
-    }
-}
-.side-nav {
-        left: 5px; /* Ajusta la posición para pantallas más pequeñas */
-        padding: 5px;
+        width: 60px;
     }
 }
