@@ -54,8 +54,16 @@ main {
     height: auto;
 }
 
-.info-icon, .info-iconp {
+.info-icon {
     position: absolute;
+    width: 100px; /* Tamaño del ícono */
+    height: auto; /* Tamaño del ícono */
+    cursor: pointer;
+}
+.info-iconp {
+    position: absolute;
+    width: 70px; /* Tamaño del ícono */
+    height: auto; /* Tamaño del ícono */
     cursor: pointer;
 }
 
