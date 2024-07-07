@@ -23,9 +23,9 @@ main {
 .home-icon {
     position: absolute;
     left: 10px;
-    top: 50%;
+    top: 10%;
     transform: translateY(-50%);
-    width: 10px;
+    width: 45px;
     height: auto;
 }
 
