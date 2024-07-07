@@ -144,7 +144,7 @@ main {
     }
     
     .responsive-img {
-    width: 100%;
+    width: 110%;
     height: auto;
     }
     #info-popup {
@@ -164,22 +164,22 @@ main {
 
 @media (max-width: 480px) {
     header h1 {
-        font-size: 1.2rem;
+        font-size: 0.6rem;
     }
 
     .header-left, .header-right {
-        width: 70px;
-    }
-
-    .info-icon {
         width: 50px;
     }
 
+    .info-icon {
+        width: 30px;
+    }
+
     .info-iconp {
-        width: 35px;
+        width: 15px;
     }
 
     .side-nav a img {
-        width: 60px;
+        width: 30px;
     }
 }
