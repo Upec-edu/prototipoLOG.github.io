@@ -136,11 +136,11 @@ main {
     }
 
     .info-icon {
-        width: 60px;
+        width: 55px;
     }
 
     .info-iconp {
-        width: 45px;
+        width: 40px;
     }
 
     #info-popup {
@@ -152,6 +152,9 @@ main {
 
     header {
         padding: 0.4rem 0;
+    }
+    .side-nav a img {
+        width: 60px;
     }
 }
 
