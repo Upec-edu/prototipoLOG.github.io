@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #004d00;
+    background-color: #004225;
     color: white;
     padding: 20px;
     text-align: center;
@@ -40,7 +40,7 @@ main {
 }
 
 .documentation-section h2 {
-    background-color: #004d00;
+    background-color: #004225;
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -58,7 +58,7 @@ main {
 }
 
 .documentation-section ul li a {
-    color: #004d00;
+    color: #004225;
     text-decoration: none;
     font-weight: bold;
 }
