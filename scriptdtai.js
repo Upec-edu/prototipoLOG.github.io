@@ -51,4 +51,10 @@ document.addEventListener('DOMContentLoaded', () => {
         popup.classList.add('hidden');
         popup.style.display = 'none';  // Ocultar el cuadro de información
     });
+    document.addEventListener('click', event => {
+        if (!popup.contains(event.target) && !event.target.matches('.info-icon, .info-iconp')) {
+            popup.classList.add('hidden');
+            popup.style.display = 'none';  // Ocultar el cuadro de información
+        }
+    });
 });
