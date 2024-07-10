@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #004225;
+    background-color: #4285f4;
     color: white;
     padding: 20px;
     text-align: center;
@@ -30,8 +30,8 @@ main {
 }
 
 .documentation-section {
-    background-color: #e6ffe6;
-    border: 2px solid #66cc66;
+    background-color: #77CCFF;
+    border: 2px solid #4285f4;
     border-radius: 10px;
     width: 80%;
     margin: 20px 0;
@@ -40,7 +40,7 @@ main {
 }
 
 .documentation-section h2 {
-    background-color: #004225;
+    background-color: #77CCFF;
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -58,7 +58,7 @@ main {
 }
 
 .documentation-section ul li a {
-    color: #004225;
+    color: #77CCFF;
     text-decoration: none;
     font-weight: bold;
 }
