@@ -112,8 +112,14 @@ header .logo {
     font-size: 1rem;
 }
 
-.auth-buttons .inicio-btn:hover {
-    background-color: #357ae8;
+.inicio-btn {
+    background-color: #0C4AC4; /* Color diferente para el botón Inicio */
+    font-size: 1.4rem; /* Tamaño de fuente diferente */
+    padding: 16px 27px; /* Tamaño de padding diferente */
+}
+
+.inicio-btn:hover {
+    background-color: #4C88FF; /* Color diferente al pasar el cursor */
     transform: scale(1.1); /* Aumenta el tamaño del botón "Inicio" */
     transition: transform 0.3s, background-color 0.3s;
 }
