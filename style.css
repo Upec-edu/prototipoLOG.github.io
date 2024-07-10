@@ -109,7 +109,7 @@ header .logo {
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
-    font-size: 0.65rem;
+    font-size: 1.2rem;
 }
 
 .inicio-btn {
@@ -150,7 +150,7 @@ header .logo {
 
     .auth-buttons button {
         padding: 8px 12px;
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }
 
     nav ul {
@@ -159,7 +159,7 @@ header .logo {
 
     nav ul li a {
         padding: 8px 10px;
-        font-size: 0.9rem;
+        font-size: 0.5rem;
     }
 }
 
@@ -169,7 +169,7 @@ header .logo {
     }
 
     header .info p {
-        font-size: 0.9rem;
+        font-size: 0.5rem;
     }
 
     header .logo {
@@ -187,7 +187,7 @@ header .logo {
     }
 
     nav ul li a {
-        font-size: 0.8rem;
+        font-size: 0.5rem;
         padding: 6px 8px;
     }
 }
