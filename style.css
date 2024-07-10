@@ -142,7 +142,7 @@ header .logo {
 
     .auth-buttons button {
         padding: 8px 12px;
-        font-size: 0.9rem;
+        font-size: 0.65rem;
     }
 
     nav ul {
@@ -151,7 +151,7 @@ header .logo {
 
     nav ul li a {
         padding: 8px 10px;
-        font-size: 0.9rem;
+        font-size: 0.65rem;
     }
 }
 
@@ -170,7 +170,7 @@ header .logo {
 
     .auth-buttons button {
         padding: 6px 10px;
-        font-size: 0.8rem;
+        font-size: 0.50rem;
     }
 
     nav ul {
@@ -179,7 +179,7 @@ header .logo {
     }
 
     nav ul li a {
-        font-size: 0.8rem;
+        font-size: 0.5rem;
         padding: 6px 8px;
     }
 }
