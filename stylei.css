@@ -26,8 +26,8 @@ nav {
 }
 
 .home-icon {
-    width: 30px;
-    height: 30px;
+    width: 47px;
+    height: auto;
     margin-right: 10px;
 }
 
@@ -49,8 +49,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    max-width: 1200px;
+    width: 70%;
+    max-width: 900px;
 }
 
 .gif-container {
@@ -65,8 +65,8 @@ main {
 }
 
 .gif-container img {
-    width: 100%;
-    max-width: 600px;
+    width: 400%;
+    max-width: 400px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
