@@ -49,8 +49,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70%;
-    max-width: 900px;
+    width: 50%;
+    max-width: 350px;
 }
 
 .gif-container {
@@ -65,8 +65,8 @@ main {
 }
 
 .gif-container img {
-    width: 400%;
-    max-width: 400px;
+    width: 300%;
+    max-width: 300px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
