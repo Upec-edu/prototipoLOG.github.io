@@ -3,34 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio - OPTITRANS</title>
-    <link rel="stylesheet" href="stylei.css">
+    <title>Guía de Documentación</title>
+    <link rel="stylesheet" href="stylegd.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-left">
-            <a href="index.html"><img src="home.svg" alt="Home" class="home-icon"></a>
-            <span class="nav-title">OPTITRANS</span>
-        </div>
-    </nav>
+    <header>
+        <a href="index.html">
+            <img src="homo.svg" alt="Página Principal" class="home-icon">
+        </a>
+        <h1>Guía de Documentación</h1>
+    </header>
     <main>
-        <section class="gif-section">
-            <div class="gif-container">
-                <img src="idenprod.gif" alt="Identificación de Producto">
-                <button class="gif-button">Identificación de producto</button>
-                <p>Averigua y conoce todo acerca de tu producto a transportar.</p>
-            </div>
-            <div class="gif-container">
-                <img src="cubicaje.gif" alt="Cubicaje">
-                <button class="gif-button">Cubicaje</button>
-                <p>Encuentra la manera correcta de colocar la mercancía optimizando costos y espacios, usa el algoritmo local o encuentra la mejor plataforma para cubicaje.</p>
-            </div>
-            <div class="gif-container">
-                <img src="aduana.gif" alt="Procesos Aduaneros">
-                <button class="gif-button">Procesos Aduaneros</button>
-                <p>Recibe guías de documentación y verifica tus pendientes para el control aduanero.</p>
-            </div>
+        <section class="documentation-section">
+            <h2>Guía documentación física</h2>
+            <ul>
+                <li><a href="pag2.html">Carta Porte Internacional por Carretera (CPIC)</a></li>
+                <li><a href="mcic.html">Manifiesto de Carga Internacional por Carretera (MCIC)</a></li>
+                
+                <li><a href="dtai.html">Declaración de Tránsito Aduanero Internacional (DTAI)</a></li>
+            </ul>
         </section>
+        <section class="documentation-section">
+            <h2>Guía documentación electrónica</h2>
+            <ul>
+                <li><a href="mcice.html">Manifiesto de Carga Internacional electrónico</a></li>
+            </ul>
+        </section>
+        <div id="info-popup" class="hidden">
+            <div id="info-text"></div>
+            <button id="close-popup">Cerrar</button>
+        </div>
     </main>
+    <script src="scripts.js"></script>
 </body>
 </html>
