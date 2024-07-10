@@ -102,14 +102,14 @@ header .logo {
 }
 
 .auth-buttons button {
-    padding: 10px 15px;
+    padding: 6px 12px;
     border: none;
     border-radius: 5px;
     background-color: #4285f4;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
-    font-size: 1rem;
+    font-size: 0.65rem;
 }
 
 .inicio-btn {
