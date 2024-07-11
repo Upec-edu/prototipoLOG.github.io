@@ -114,9 +114,9 @@ header .logo {
 
 /* Estilos específicos para el botón "Inicio" */
 .inicio-btn {
-    background-color: #01266D; /* Color diferente para el botón Inicio */
-    font-size: 1.4rem; /* Tamaño de fuente diferente */
-    padding: 16px 42px; /* Tamaño de padding diferente */
+    background-color: #0F2899; /* Color diferente para el botón Inicio */
+    font-size: 2.8rem; /* Tamaño de fuente diferente */
+    padding: 18px 62px; /* Tamaño de padding diferente */
     color: #ffffff; /* Color de texto */
 }
 
