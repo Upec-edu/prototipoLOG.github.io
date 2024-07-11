@@ -112,10 +112,12 @@ header .logo {
     font-size: 1.2rem;
 }
 
+/* Estilos específicos para el botón "Inicio" */
 .inicio-btn {
     background-color: #01266D; /* Color diferente para el botón Inicio */
     font-size: 1.4rem; /* Tamaño de fuente diferente */
     padding: 16px 42px; /* Tamaño de padding diferente */
+    color: #ffffff; /* Color de texto */
 }
 
 .inicio-btn:hover {
@@ -147,10 +149,12 @@ header .logo {
     header .logo {
         width: 80%;
     }
+
     .inicio-btn {
         font-size: 2.1rem; /* Tamaño de fuente diferente */
         padding: 9px 28px; /* Tamaño de padding diferente */
     }
+
     .auth-buttons button {
         padding: 8px 11px;
         font-size: 0.5rem;
