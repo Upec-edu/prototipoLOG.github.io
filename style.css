@@ -118,7 +118,7 @@ header .logo {
     font-size: 1.4rem; /* Tamaño de fuente diferente */
     padding: 16px 42px; /* Tamaño de padding diferente */
     color: #ffffff; /* Color de texto */
-    border-radius: 5px;
+    border-radius: 9px;
     display: inline-block;
     transition: background-color 0.3s, transform 0.3s; /* Transición para el cambio de color y escala */
 }
@@ -159,7 +159,7 @@ header .logo {
 
     .auth-buttons button {
         padding: 8px 11px;
-        font-size: 0.5rem;
+        font-size: 0.58rem;
     }
 
     nav ul {
@@ -168,7 +168,7 @@ header .logo {
 
     nav ul li a {
         padding: 8px 10px;
-        font-size: 0.61rem;
+        font-size: 0.69rem;
     }
 }
 
