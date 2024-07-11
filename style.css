@@ -137,11 +137,11 @@ header .logo {
     }
 
     header .info h1 {
-        font-size: 2.5rem;
+        font-size: 3.1rem;
     }
 
     header .info p {
-        font-size: 1rem;
+        font-size: 1.8rem;
     }
 
     header .logo {
@@ -159,7 +159,7 @@ header .logo {
 
     nav ul li a {
         padding: 8px 10px;
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
 }
 
