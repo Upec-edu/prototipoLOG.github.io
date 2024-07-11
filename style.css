@@ -114,16 +114,18 @@ header .logo {
 
 /* Estilos específicos para el botón "Inicio" */
 .inicio-btn {
-    background-color: #0F2899; /* Color diferente para el botón Inicio */
-    font-size: 2.8rem; /* Tamaño de fuente diferente */
-    padding: 18px 62px; /* Tamaño de padding diferente */
+    background-color: #01266D; /* Color diferente para el botón Inicio */
+    font-size: 1.4rem; /* Tamaño de fuente diferente */
+    padding: 16px 42px; /* Tamaño de padding diferente */
     color: #ffffff; /* Color de texto */
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s, transform 0.3s; /* Transición para el cambio de color y escala */
 }
 
 .inicio-btn:hover {
     background-color: #77A5FF; /* Color diferente al pasar el cursor */
     transform: scale(1.1); /* Aumenta el tamaño del botón "Inicio" */
-    transition: transform 0.4s, background-color 0.4s;
 }
 
 /* Responsive Styles */
