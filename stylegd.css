@@ -98,3 +98,53 @@ main {
 #close-popup:hover {
     background-color: #003300;
 }
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .documentation-section {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    .home-icon {
+        width: 50px;
+        left: 8px;
+    }
+
+    .documentation-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .documentation-section ul li {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    .home-icon {
+        width: 60px;
+        left: 10px;
+    }
+
+    .documentation-section {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .documentation-section h2 {
+        font-size: 1.2rem;
+    }
+
+    .documentation-section ul li {
+        font-size: 0.9rem;
+    }
+}
