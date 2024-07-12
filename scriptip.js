@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('productosv1.csv')
+    fetch('productos.csv')
         .then(response => response.text())
         .then(data => {
             Papa.parse(data, {
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                         if (productoInfo.length > 0) {
                             const infoDiv = document.getElementById('info');
-                            const { subpartida, grupo, subgrupo } = productoInfo[0];
+                            const { subpartida, grupo, subgrupo, tipo_cuidado, descr_cuidado, fuente_cuid, etiquetado, fuente_etiq } = productoInfo[0];
                             infoDiv.innerHTML = `
                                 <h2>${selectedProducto}</h2>
                                 <p><strong>Subpartida:</strong> ${subpartida}</p>
@@ -45,6 +45,25 @@ document.addEventListener('DOMContentLoaded', () => {
                                 `;
                                 infoDiv.appendChild(docDiv);
                             });
+
+                            // Añadir información de cuidado
+                            const cuidadoDiv = document.createElement('div');
+                            cuidadoDiv.innerHTML = `
+                                <h3>Cuidado</h3>
+                                <p><strong>Tipo:</strong> ${tipo_cuidado}</p>
+                                <p>${descr_cuidado}</p>
+                                <p><strong>Fuente:</strong> ${fuente_cuid}</p>
+                            `;
+                            infoDiv.appendChild(cuidadoDiv);
+
+                            // Añadir información de etiquetado
+                            const etiquetadoDiv = document.createElement('div');
+                            etiquetadoDiv.innerHTML = `
+                                <h3>Etiquetado</h3>
+                                <p>${etiquetado}</p>
+                                <p><strong>Fuente:</strong> ${fuente_etiq}</p>
+                            `;
+                            infoDiv.appendChild(etiquetadoDiv);
                         }
                     });
                 }
