@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('productos.csv')
+    fetch('productosv1.csv')
         .then(response => response.text())
         .then(data => {
             Papa.parse(data, {
